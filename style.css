@@ -306,6 +306,7 @@ body {
     width:60%;
     position:relative;
     margin:auto;
+    margin-top:min(80px);
 }
 
 .hike-picture-verticale {
