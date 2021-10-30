@@ -133,7 +133,7 @@ body {
 }
 .description-container {
     max-width: 870px;
-    margin: 0 auto;
+    margin: auto;
 }
 .description-text {
     text-align:center;
