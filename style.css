@@ -262,7 +262,7 @@ body {
     text-decoration:none;
     font-size: 12px;
     transition-duration: 0.7s;
-    position: relative;
+    position: center;
     margin-top:40px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
