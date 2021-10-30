@@ -263,8 +263,7 @@ body {
     font-size: 12px;
     transition-duration: 0.7s;
     position: relative;
-    margin-top:20px;
-    top: 50%;
+    margin-top:40px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
