@@ -303,7 +303,7 @@ body {
 }
 
 .hike-picture {
-    width:60%;
+    width:65%;
     position:relative;
     margin:auto;
     margin-top:min(80px);
@@ -312,7 +312,8 @@ body {
 .hike-picture-verticale {
     width:40%;
     position:relative;
-    margin:80px 0 0 375px;
+    margin:auto;
+    margin-top:min(80px);
 }
 /* FOOTER */
 
