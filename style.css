@@ -209,6 +209,7 @@ body {
 @media screen and (max-width: 1100px) {
     .category {
       width: 60%; /* The width is 60%, when the viewport is 1100px or smaller */
+      height:auto;
     }
 }
 
