@@ -120,7 +120,7 @@ body {
 }
 .value-container1 {
     max-width: 600px;
-    margin:auto;
+    margin: 0 auto;
     padding:100px;
 }
 .subsection-header {
@@ -143,10 +143,10 @@ body {
     line-height:1.6;
 }
 .subsection-text1 {
+    text-align:center;
     color:rgb(126, 121, 121);
     font-size:24px;
     font-weight:bold;
-    text-align:center;
 }
 .subsection-description {
     color:#3c3c3c;
