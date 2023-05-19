@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>About</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
 
+</head>
+
+<div class="main-container">
+
+<body>
+
+<!-- Side Navigation -->
+  <!-- The overlay -->
+<div id="myNav" class="overlay">
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <!-- Overlay content-->
+  <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="switzerland.html">Switzerland</a>
+      <a href="about.html">About</a>
+    </div>
+</div>
+
+<!-- Script Sidebar -->
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+
+  <!-- Header -->
+<header>
+  <!-- Element to open/show the overlay navigation menu-->
+  <div class="logo">
+  <span style="font-size:30px;cursor:pointer;float:right;margin:10px 30px 0 0;color:black" onclick="openNav()">&#9776;</span>
+  <h1>RIEDHIKE</h1>    
+  </div>
+</header>
+
+<!--Section text-->
+<section>
+  <div class="description-container">
+    <p class="subsection-header2">PIGNE DE LA LÉ - MOIRY GLACIER, VALAIS</p>
+    <p class="description-text3">12.09.2022</p>
+    <hr>
+    <p class="description-text2">Difficulty:&ensp;Medium T3 & Alpine T4 - Ascent 1400m - Descent 1400m</p>
+    <p class="description-text2">Distance:&ensp;15km</p>
+    <p class="description-text2">Duration:&ensp;7h</p>
+    <p class="description-text2">Route:<br><br>Train to Sierre<br><br>Bus to Moiry glacier<br><br>Hike: Moiry glacier - Cabane de Moiry - Pigne de la Lé - Cabane de Moiry - Moiry glacier<br></p>
+  </div>
+</section>
+
+<div class="hike-picture">  
+  <img src="images/switzerland/nägelisgrätli/34068826-DB2F-49BF-A204-FD5AE43C6088.jpg" alt=Rhône Glacier style="width:100%">
+</div>
+
+<p class="description-text3">Nägelisgrätli 2633m - Rhône Glacier</p>
+
+<footer>
+    <div class="copyright">
+      <p>&copy; RIEDHIKE</p>
+    </div>
+</footer>
+
+</body>
+
+</div>
+
+</html>
